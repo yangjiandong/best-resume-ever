@@ -41,39 +41,31 @@ export const PERSON = {
   ],
   // skill level goes 0 to 100
   skills: [{
-      name: 'HTML5',
-      level: '99'
-    },
-    {
-      name: 'CSS3',
-      level: '95'
+      name: 'Java',
+      level: '90'
     },
     {
       name: 'JavaScript',
-      level: '97'
-    },
-    {
-      name: 'Node.js',
-      level: '93'
-    },
-    {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
       level: '80'
     },
     {
-      name: 'ES.Next',
-      level: '70'
+      name: 'Node.js',
+      level: '80'
+    },
+    {
+      name: 'Vue',
+      level: '80'
+    },
+    {
+      name: 'Sql',
+      level: '80'
     },
     {
       name: 'Docker',
-      level: '99'
+      level: '80'
     }
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
+  skillDescription: '长期从事医疗行业软件开发，最近关注docker部署',
   contact: {
     email: 'john.doe@email.com',
     phone: '0123 456789',
