@@ -1,17 +1,11 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/salomonelli/best-resume-ever">
+  <a href="https://github.com/yangjiandong/best-resume-ever">
   <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
   <br>
   best-resume-ever
   <br>
 </h1>
-
-<h4 align="center">
-  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
-  <br><br>
-  Made with Vue and LESS.
-</h4>
 
 <br>
 <br>
@@ -26,7 +20,7 @@
 <br>
 <br>
 
-## How to use
+## How to use(node 6.x)
 
 1. Clone this repository.
 
@@ -36,7 +30,13 @@
 
 4. Preview resumes with `npm run dev`.
 
-5. Export with `npm run export`.
+5. Export pdf
+
+  - run `npm install -g electroshot`
+  - run `electroshot http://192.168.1.109:8888/#/resume/left-right 2481x3508 --pdf-margin none --format pdf --out ./pdf --filename "left-right.pdf" --pdf-background`
+  - and `electroshot http://192.168.1.109:8888/#/resume/material-dark 2481x3508 --pdf-margin none --format pdf --out /workspace/pdf --filename "material-dark.pdf" --pdf-background`
+  - `electroshot http://192.168.1.109:8888/#/resume/oblique 2481x3508 --pdf-margin none --format pdf --out /workspace/pdf --filename "oblique.pdf" --pdf-background`
+  - `electroshot http://192.168.1.109:8888/#/resume/side-bar 2481x3508 --pdf-margin none --format pdf --out /workspace/pdf --filename "side-bar.pdf" --pdf-background`
 
 All resumes will be exported to `/pdf`.
 
